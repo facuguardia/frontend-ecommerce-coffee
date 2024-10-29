@@ -5,6 +5,7 @@ import { Heart, ShoppingCart, User } from "lucide-react";
 
 import { MenuList } from "../MenuList";
 import { MenuMobileList } from "../MenuMobileList";
+import { ToggleTheme } from "../ToggleTheme";
 
 
 export function Navbar() {
@@ -35,6 +36,8 @@ export function Navbar() {
         />
 
         <User strokeWidth={1} className="cursor-pointer" />
+
+        <ToggleTheme />
       </div>
     </div>
   );
